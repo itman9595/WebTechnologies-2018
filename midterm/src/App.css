@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+.menu {
+  left: -60px;
+  position: relative;
+}
+.menu > li {
+  display: inline-block;
+  margin-left: 100px;
+  border: 1px black solid;
+  padding: 30px 20px; 
+}
+
+.menu > li:hover {
+  background-color: orange; 
+}
