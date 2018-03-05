@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#input {
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 245px;
+  height: 50px;
+  background-color: #dce8f5;
+  pointer-events:none;
+}
+
+table {
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #dcf5e9;
+}
+
+#clear, #bs {
+  color: white;
+  background-color: #2f3255;
+  height: 40px;
+}
+
+#clear {
+  width: 190px;
+}
+
+#bs {
+  left: 10px;
+  position: relative;
+  width: 70px;
+}
+
+.arithmetic > th > button {
+  width: 50px;
+  height: 50px;
+}
+
+.arithmetic > th:nth-child(1) {
+  left: -70px;
+  position: relative;
+}
+
+.arithmetic > th:nth-child(2) {
+  left: -132px;
+  position: relative;
+}
+
+.arithmetic > th:nth-child(3) {
+  left: -125px;
+  position: relative;
+}
+
+.arithmetic > th:nth-child(4) {
+  left: -115px;
+  position: relative;
+}
+
+#operator {
+  background-color: orange;
+}
